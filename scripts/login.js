@@ -75,7 +75,7 @@ function fetchApiLogin(url,payload) {
         if(data.jwt){
             localStorage.setItem('jwt', data.jwt);
 
-            location.href = '../mistareas.html'
+            location.href = '../mis-tareas.html'
         }
     }).catch( error => console.log(error))
 }
