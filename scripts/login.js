@@ -75,7 +75,7 @@ function fetchApiLogin(url,payload) {
         if(data.jwt){
             localStorage.setItem('jwt', data.jwt);
 
-            location.href = 'ToDo-App/mis-tareas.html'
+            location.href = 'mis-tareas.html'
         }
     }).catch( error => console.log(error))
 }
