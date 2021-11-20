@@ -37,7 +37,7 @@ window.addEventListener('load', function () {
       if (result.isConfirmed) {
         //  cerrar sesion del usuario
         localStorage.clear();
-        location.replace('/');
+        location.replace('index.html');
       }
     })
     // cerra sesion
