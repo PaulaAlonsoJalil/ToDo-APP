@@ -90,7 +90,7 @@ function fetchApiRegister(url,payload) {
         if(data.jwt){
             localStorage.setItem('jwt', data.jwt);
 
-            location.href = '/mis-tareas.html'
+            location.href = 'mis-tareas.html'
         }
     })
 }
